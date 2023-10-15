@@ -1,0 +1,46 @@
+{
+  "name": "lens-pwa-io",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@irys/sdk": "^0.0.3",
+    "@lens-protocol/client": "2.0.0-alpha.7",
+    "@lens-protocol/metadata": "0.1.0-alpha.29",
+    "@phosphor-icons/react": "^2.0.13",
+    "@tanstack/react-query": "4.36.1",
+    "@wagmi/core": "^1.4.2",
+    "@web3modal/wagmi": "3.1.0-598ec14",
+    "konsta": "^3.1.0",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.47.0",
+    "react-markdown": "^9.0.0",
+    "remark-gfm": "^4.0.0",
+    "tailwindcss": "3.3.2",
+    "viem": "^1.7.0",
+    "wagmi": "^1.4.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "eslint-plugin-unicorn": "^47.0.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5"
+  }
+}
