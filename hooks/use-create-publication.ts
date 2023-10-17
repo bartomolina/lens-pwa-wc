@@ -17,6 +17,10 @@ export const useCreatePublication = ({
 
   return useMutation({
     mutationFn: async ({ content, file }: { content: string; file?: File }) => {
+      if (!file && content.length === 0) {
+        return;
+      }
+
       if (address) {
         let metadata;
         if (file) {
