@@ -14,20 +14,6 @@ export function Client({ children }: { children: React.ReactNode }) {
   const [mounted, isMounted] = useState(false);
 
   useEffect(() => {
-    document.addEventListener(
-      "touchmove",
-      function (event) {
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore
-        if (event.scale !== 1) {
-          event.preventDefault();
-        }
-      },
-      { passive: false }
-    );
-  }, []);
-
-  useEffect(() => {
     isMounted(true);
   }, [isMounted]);
 
