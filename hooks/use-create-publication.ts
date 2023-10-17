@@ -39,7 +39,7 @@ export const useCreatePublication = ({
               item: `ipfs://${resData.IpfsHash}`,
               type: file.type as MediaImageMimeType,
             },
-            content,
+            content: content.length > 0 ? content : undefined,
           });
         } else {
           metadata = textOnly({
